@@ -4,10 +4,10 @@ title: Algorithm
 background: '/img/bg-post.jpg'
 ---
 
-{% for post in paginator.posts %}
+{% for post in paginator.algorithm %}
 
 <article class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+  <a href="{{ algorithm.url | prepend: site.baseurl | replace: '//', '/' }}">
     <h2 class="post-title">{{ post.title }}</h2>
     {% if post.subtitle %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
