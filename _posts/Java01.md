@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Dinosaurs are extinct today"
-subtitle: "because they lacked opposable thumbs and the brainpower to build a space program."
-date: 2020-01-26 23:45:13 -0400
-background: '/img/posts/01.jpg
+title: "Welcome Jdoublbeeyun Blog"
+subtitle: "I will share all my Study posts"
+date: 2021-11-19 11:19:13 -0400
+background: '/img/posts/01.jpg'
 ---
 
 ### Welcome Jdoublbeeyun Blog
