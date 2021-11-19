@@ -1,1 +1,43 @@
-re
+---
+layout: post
+title: "Solution-Problems at Git Bash"
+subtitle: "Solution-01-Git Bash(Always updated)"
+date: 2021-11-19 21:39:13 -0400
+background: '/img/posts/05.jpg'
+---
+
+### [Solution-Git Repository Merge]
+
+저장소 A <--- 저장소 B
+
+저장소 A : https://github.com/Jdoubleeyun/SpringBoot.git
+
+저장소 B : https://github.com/Jdoubleeyun/Java.git
+
+1. git을 초기화
+
+   `$ git init`
+2. git clone
+
+   `$ git clone https://github.com/Jdoubleeyun/SpringBoot.git`
+3. repository A의 branch 변경 (master > main) / 예외
+
+   `$ git branch -m master main`
+4. git cd repository
+
+   `$ cd SpringBoot`
+5. git make folder
+
+   `$ mdkir java`
+6. git sudtree add
+
+   `$ git subtree add --prefix=java/javaGrammer https://github.com/Jdoubleeyun/Java.git master `
+7. git push
+
+   `$ git push`
+8. additional merge
+
+   repeat 5 to 7
+
+![image](https://user-images.githubusercontent.com/82137367/142625812-b0645fa7-f177-4c8e-8b88-1a05d8025dc5.png)
+
