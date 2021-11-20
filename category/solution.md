@@ -1,4 +1,4 @@
 ---
 layout: category
-title: Solution
+title: solution
 ---
